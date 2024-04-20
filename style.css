@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.page {
+
+    height: 900px;
+    background-color: rgb(224, 171, 101);
+}
+
+.box1 {
+    width: 85%;
+    height: 800PX;
+    background-color: white;
+    margin-left: 90px;
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+
+.box1 .logo h1 {
+    font-size: 2.5ch;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.box1 .navbar ul {
+    display: flex;
+    padding: 25px;
+    margin-left: 200px;
+}
+
+.box1 .navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.8ch;
+
+}
+
+.box1 .navbar ul li i {
+    cursor: pointer;
+}
+
+.box1 .navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.box1 .navbar ul li a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(214, 157, 106);
+}
+
+.navbar #bar {
+    color: black;
+    margin-left: 500px;
+    position: relative;
+    bottom: 40px;
+    display: none;
+}
+
+.box1 .btns {
+    margin-left: 70px;
+    padding: 20px;
+
+}
+
+.box1 .btns .btn1 {
+    color: black;
+    border: none;
+    background-color: white;
+
+}
+
+.box1 .btns .btn1:hover {
+    cursor: pointer;
+    color: blue;
+    margin-left: 40px;
+}
+
+.box1 .btns .btn2 {
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(66, 64, 64);
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.box1 .btns .btn2:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.box1 .box2 {
+    width: 85%;
+    height: 300px;
+    background-color: rgb(160, 159, 159, .6);
+    margin-left: -860px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBpKCUZgjv9W7DIDcHx4sLVU_PJpuJkL92g&s);
+    background-repeat: no-repeat;
+    background-position: 550px;
+}
+
+.box2 .p1 {
+    font-size: 1.5ch;
+    margin-left: 70px;
+    margin-top: 60px;
+    color: rgb(75, 74, 74);
+}
+
+.box2 h2 {
+    margin-left: 70px;
+    font-size: 6ch;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    margin-top: -1px;
+}
+
+.box2 .p2 {
+    margin-left: 70px;
+    font-size: 1.3ch;
+    margin-top: 50px;
+}
+
+.box2 i {
+    margin-left: 70px;
+    font-size: 1.5ch;
+    color: rgb(77, 74, 74);
+    border: 1px solid rgb(77, 74, 74);
+    border-radius: 20px;
+    width: 30px;
+    padding: 7px;
+    margin-top: 10px;
+
+}
+
+.box2 .box3 {
+    width: 85%;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    box-shadow: 5px 5px 4px rgb(126, 125, 125);
+    margin-left: 58px;
+    border-radius: 10px;
+    margin-top: 35px;
+
+}
+
+.box2 .box3 .a {
+    width: 40%;
+}
+
+.box2 .box3 .a h4 {
+    margin-left: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+.box2 .box3 .a i {
+    border: none;
+    font-size: 2ch;
+    position: relative;
+    margin-left: 150px;
+    bottom: 65px;
+}
+
+.box2 .box3 .a a {
+    color: black;
+    font-size: 1.5ch;
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+.box2 .box3 .b {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.box2 .box3 .b h4 {
+    margin-left: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+.box2 .box3 .b i {
+    border: none;
+    font-size: 2ch;
+    position: relative;
+    margin-left: 96px;
+    bottom: 65px;
+}
+
+.box2 .box3 .b a {
+    color: black;
+    font-size: 1.5ch;
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+.box2 .box3 .c {
+    width: 30%;
+    margin-left: 25px;
+}
+
+.box2 .box3 .c h4 {
+    margin-left: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+.box2 .box3 .c i {
+    border: none;
+    font-size: 2ch;
+    position: relative;
+    margin-left: 80px;
+    bottom: 65px;
+}
+
+.box2 .box3 .c a {
+    color: black;
+    font-size: 1.5ch;
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+.box2 .box3 .d {
+    width: 40%;
+}
+
+.box2 .box3 .d .box {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 90px;
+    margin-top: 10px;
+
+}
+
+.box2 .box3 .d .box i {
+    border: none;
+    color: white;
+    font-size: 3ch;
+    margin-left: 6px;
+    padding: 7px;
+
+}
+
+.box2 h4 {
+    margin-top: 50px;
+    font-size: 2.5ch;
+}
+
+.box2 p {
+    font-size: 1.7ch;
+    color: rgb(70, 66, 66);
+
+}
+
+.box2 #ico1 {
+    margin-left: 700px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.box2 #ico2 {
+    position: relative;
+    bottom: 50px;
+    margin-left: -1px;
+    color: white;
+    background-color: black;
+}
+
+.box2 .image {
+    display: flex;
+}
+
+.image .img1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image .img1 p {
+    margin-left: 100px;
+    color: black;
+}
+
+.image .img2 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 170px;
+}
+
+.image .img2 p {
+    margin-left: 150px;
+    color: black;
+}
+
+.image .img3 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.image .img3 p {
+    margin-left: 150px;
+    color: black;
+}
+
+
+/* Respponsive for tablets */
+
+@media screen and (max-width:760px) {
+    .page {
+        height: 1300px;
+    }
+
+    .box1 {
+        width: 90%;
+        height: 1230PX;
+        margin-left: 30px;
+    }
+
+    .box1 .logo h1 {
+        font-size: 2ch;
+        margin-left: 15px;
+        padding: 15px;
+    }
+
+    .box1 .navbar ul {
+       display: none;
+    }
+    .navbar #bar {
+        color: black;
+        margin-left: 290px;
+         margin-top: 60px;
+        display: block;
+        font-size: 2.7ch;
+    }
+
+    .box1 .btns {
+      display: none;
+
+    }
+    .box1 .box2 {
+        width: 85%;
+        height: 350px;
+        margin-left: -380px;
+        margin-top: 70px;
+        border-radius: 20px;
+    }
+
+    .box2 .p1 {
+        margin-top: 60px;
+    }
+
+    .box2 h2 {
+        margin-left: 70px;
+        margin-top: 30px;
+       
+    }
+
+    .box2 .p2 {
+        margin-left: 80px;
+    }
+
+    .box2 i {
+        display: none;
+
+    }
+
+    .box2 .box3 {
+      display: none;
+
+    }
+    .box2 h4 {
+        margin-top: 80px;
+        font-size: 2.5ch;
+        margin-left: 20px;
+        
+    }
+    .box2 p {
+        font-size: 1.5ch;
+        margin-left: 20px;
+
+    }
+
+    .box2 #ico1 {
+       display: none;
+    }
+
+    .box2 #ico2 {
+     display: none;
+    }
+
+    .box2 .image {
+       flex-direction: column;
+    }
+
+    .image .img1 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .image .img1 p {
+        margin-left: 150px;
+        padding: 10px;
+        font-size: 2ch;
+    }
+
+    .image .img2 img {
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 1px;
+        height: 170px;
+    }
+
+    .image .img2 p {
+        margin-left: 150px;
+        color: black;
+        font-size: 2ch;
+    }
+
+    .image .img3 img {
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 1px;
+    }
+
+    .image .img3 p {
+        margin-left: 150px;
+        color: black;
+        font-size: 2ch;
+    }
+
+
+
+}
